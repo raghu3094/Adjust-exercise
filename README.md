@@ -14,16 +14,27 @@ The server is used for SSL offloading and proxies around 25000 requests per seco
 
 Answer : The basic metrics that will be monitored are 
  a) 5xx error code 
+ 
  b) 4xx error code & 3xx error code
+ 
  c) Active Sessions
+ 
  d) Target TLS negotiation error & Client TLS negotiation error
+ 
  e) Average response time 
+ 
  f) Denied Sessions
+ 
  g) Queue Time
- h) Data (Amount of data sent between proxy server and client) 
+ 
+ h) Data (Amount of data sent between proxy server and client)
+ 
  i) Warnings (no of retries and redispatches)
+ 
  l) Server status (health of server)
+ 
  j) CPU utilisation of instance
+ 
  k) Memory utilisation of instance
  
  These will be my basic metrics for monitoring the instance.
